@@ -1,2 +1,2 @@
 # pytorch
-pytorch implementation (explained line by line code)
+This repository contains pytorch implementation of different datasets explained line by line.
