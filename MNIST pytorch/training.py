@@ -1,6 +1,7 @@
 # MNIST contains handwritten digit and
 # is trained to recognize the handwritten digits
 
+# Importing libraries
 import torch
 import torch.nn as nn
 import torchvision
