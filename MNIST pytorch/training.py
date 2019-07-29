@@ -40,7 +40,7 @@ test_loader=torch.utils.data.DataLoader(dataset=test_dataset,
                                         batch_size=batch_size,
                                         shuffle=False)
 
-# Fully connected neural network with one hidden layer
+# Fully connected neural network with two hidden layers
 class NeuralNet(nn.Module):
     def __init__(self,input_size,hidden_size,hidden_size_2,num_classes):
         super(NeuralNet, self).__init__()
